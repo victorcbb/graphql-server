@@ -13,7 +13,8 @@
   "dependencies": {
     "@apollo/server": "^5.0.0",
     "graphql": "^16.11.0",
-    "graphql-tag": "^2.12.6"
+    "graphql-tag": "^2.12.6",
+    "json-server": "^1.0.0-beta.3"
   },
   "devDependencies": {
     "@types/node": "^24.3.0",
