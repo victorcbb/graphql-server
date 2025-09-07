@@ -8,7 +8,7 @@ const user = async (
   const { getUsers } = context;
   const { id } = arg;
 
-  const response = await getUsers(id);
+  const response = await getUsers(`/${id}`);
   const user = response.data;
 
   return user;
